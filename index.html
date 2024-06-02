@@ -14,37 +14,27 @@
             color: #333;
         }
         .container {
-            max-width: 1000px;
+            max-width: 800px;
             margin: 50px auto;
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            display: flex;
-            flex-wrap: wrap;
         }
         h1 {
-            width: 100%;
             text-align: center;
             font-weight: 700;
             color: #2c3e50;
-            margin-bottom: 20px;
         }
         p {
-            width: 100%;
             text-align: center;
             color: #7f8c8d;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
         .chapter {
-            width: calc(50% - 10px);
-            margin-right: 20px;
+            margin: 20px 0;
             border-bottom: 1px solid #ecf0f1;
             padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-        .chapter:last-child {
-            margin-right: 0;
         }
         .chapter-title {
             cursor: pointer;
@@ -84,30 +74,17 @@
         }
 
         /* Responsive Styling */
-        @media only screen and (max-width: 800px) {
-            .chapter {
-                width: 100%;
-                margin-right: 0;
+        @media only screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
             }
-        }
-
-        .video-container {
-            width: calc(50% - 10px);
-            margin-left: 20px;
-        }
-
-        @media only screen and (max-width: 800px) {
-            .video-container {
-                width: 100%;
-                margin-left: 0;
-                margin-top: 20px;
+            .chapter-title {
+                font-size: 16px;
             }
-        }
-
-        .video-container iframe {
-            width: 100%;
-            height: 300px;
-            border-radius: 5px;
+            p {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
         }
     </style>
     <script>
@@ -143,14 +120,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="content-container">
-            <h1>Master ChatGPT: Transform Your Life With AI Chatbots</h1>
-            <p>This course now offers a bonus workshop presented by Dhruv Rathee at the 1Billion Summit in Dubai. Stay tuned for further course updates, new chapters arriving in June 2024</p>
-            <p>This course includes:</p>
-            <ul>
-                <li>4.5 hours of video content</li>
-                <li>6 Chapters</li>
-            </ul>
+        <h1>Course Introduction</h1>
+        <p>Welcome to the course introduction page. Below you will find the chapters for the course. Click on a chapter to view its content.</p>
 
         <div class="chapter">
             <div class="chapter-title">
