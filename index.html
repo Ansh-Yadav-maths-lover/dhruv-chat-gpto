@@ -32,7 +32,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
+            padding: 20px 20px; /* Adjusted padding */
             transition: transform 0.3s ease;
         }
 
@@ -51,8 +51,8 @@
         }
 
         .container {
-            max-width: 800px;
-            margin: 80px auto 50px; /* Adjusted margin for fixed header */
+            max-width: calc(100% - 40px); /* Adjusted width for smaller screens */
+            margin: 80px auto 50px; /* Adjusted margin for smaller screens */
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -134,6 +134,10 @@
             p {
                 font-size: 14px;
                 margin-bottom: 20px;
+            }
+
+            .header {
+                padding: 10px 20px; /* Adjusted padding */
             }
         }
 
@@ -217,11 +221,11 @@
 
     <div class="container">
         <h1>Master ChatGPT : Transform Your Life With AI Chatbots</h1>
-<center>
-  <a href="//academy.dhruvrathee.com/chatgpt" target="_blank">
-    <h4>Credit : Dhruv Rathee</h4>
-  </a>
-</center>
+        <center>
+            <a href="//academy.dhruvrathee.com/chatgpt" target="_blank">
+                <h4>Credit : Dhruv Rathee</h4>
+            </a>
+        </center>
 
         <p>This course now offers a bonus workshop presented by Dhruv Rathee at the 1Billion Summit in Dubai. Stay tuned for further course updates, new chapters arriving in June 2024</p>
 
